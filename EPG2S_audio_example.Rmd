@@ -2,24 +2,3 @@
 <audio controls autoplay>
  <source src="audio/clean_TMHINT_01_01.wav"  type="audio/clean">
 </audio>
-
-## Noisy Speech
-Four noise types artificially added. 
-- car
-![](audio/car_TMHINT_01_01.wav)
-- engine
-![](audio/engine_TMHINT_01_01.wav)
-- street noise
-![](audio/street_TMHINT_01_01.wav)
--background talkers
-![](audio/talk_TMHINT_01_01.wav)
-
-## Speech Generation 
-- Generating speech with EPG signals only
-![](audio/EPG_ONLY_0dB_TMHINT_01_01.wav)
-
-- Generating speech with EPG signals and noisy speech signals in early fusion mode
-![](audio/sg_EF_0dB_TMHINT_01_01.wav)
-
-- Generating speech with EPG signals and noisy speech signals in late fusion mode
-![](audio/sg_LF_0dB_TMHINT_01_01.wav)
