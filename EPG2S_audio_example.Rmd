@@ -1,17 +1,9 @@
----
-title: "EPG2S Audio Example"
-output: html_document
----
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ## Clean Speech 
 <audio controls autoplay>
  <source src="audio/clean_TMHINT_01_01.wav"  type="audio/clean">
 </audio>
-![](audio/clean_TMHINT_01_01.wav)
 
 ## Noisy Speech
 Four noise types artificially added. 
