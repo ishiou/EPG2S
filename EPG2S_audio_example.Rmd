@@ -1,25 +1,129 @@
 ## Clean Speech 
 <audio controls autoplay>
- <source src="audio/clean_TMHINT_01_01.wav"  type="audio/clean">
+ <source src="audio/clean_TMHINT_01_01.wav"  type="audio/wav">
 </audio>
 
 ## Noisy Speech
-Four noise types artificially added. 
+#### Four noise types artificially added. 
+
 - car
-![](audio/car_TMHINT_01_01.wav)
+<br>
+<audio controls autoplay>
+ <source src="audio/car_TMHINT_01_01.wav"  type="audio/wav">
+</audio>
+
 - engine
-![](audio/engine_TMHINT_01_01.wav)
+<br>
+<audio controls autoplay>
+ <source src="audio/engine_TMHINT_01_01.wav"  type="audio/wav">
+</audio>
+
 - street noise
-![](audio/street_TMHINT_01_01.wav)
--background talkers
-![](audio/talk_TMHINT_01_01.wav)
+<br>
+<audio controls autoplay>
+ <source src="audio/street_TMHINT_01_01.wav"  type="audio/wav">
+</audio>
+
+- background talkers
+<br>
+<audio controls autoplay>
+ <source src="audio/talk_TMHINT_01_01.wav"  type="audio/wav">
+</audio>
 
 ## Speech Generation 
-- Generating speech with EPG signals only
-![](audio/EPG_ONLY_0dB_TMHINT_01_01.wav)
+#### Generating speech with EPG signals only
+<br>
+<audio controls autoplay>
+ <source src="audio/EPG_ONLY_0dB_TMHINT_01_01.wav"  type="audio/wav">
+</audio>
 
-- Generating speech with EPG signals and noisy speech signals in early fusion mode
-![](audio/sg_EF_0dB_TMHINT_01_01.wav)
+#### Generating speech with EPG signals and noisy speech signals in early fusion mode
+<br>
+<audio controls autoplay>
+ <source src="audio/sg_EF_0dB_TMHINT_01_01.wav"  type="audio/wav">
+</audio>
 
-- Generating speech with EPG signals and noisy speech signals in late fusion mode
-![](audio/sg_LF_0dB_TMHINT_01_01.wav)
+#### Generating speech with EPG signals and noisy speech signals in late fusion mode
+<br>
+<audio controls autoplay>
+ <source src="audio/sg_LF_0dB_TMHINT_01_01.wav"  type="audio/wav">
+</audio>
+
+## Speech Enhancement
+#### Using audio signal only
+
+- car
+<br>
+<audio controls autoplay>
+ <source src="audio/baseline/car_0dB_TMHINT_01_01.wav"  type="audio/wav">
+</audio>
+
+- engine
+<br>
+<audio controls autoplay>
+ <source src="audio/baseline/engine_0dB_TMHINT_01_01.wav"  type="audio/wav">
+</audio>
+
+- street noise
+<br>
+<audio controls autoplay>
+ <source src="audio/baseline/street_0dB_TMHINT_01_01.wav"  type="audio/wav">
+</audio>
+
+- background talkers
+<br>
+<audio controls autoplay>
+ <source src="audio/baseline/talker_0dB_TMHINT_01_01.wav"  type="audio/wav">
+</audio>
+
+#### Combining EPG and audio signal in early fusion 
+
+- car
+<br>
+<audio controls autoplay>
+ <source src="audio/EF/car_0dB_TMHINT_01_01.wav"  type="audio/wav">
+</audio>
+
+- engine
+<br>
+<audio controls autoplay>
+ <source src="audio/EF/engine_0dB_TMHINT_01_01.wav"  type="audio/wav">
+</audio>
+
+- street noise
+<br>
+<audio controls autoplay>
+ <source src="audio/EF/street_0dB_TMHINT_01_01.wav"  type="audio/wav">
+</audio>
+
+- background talkers
+<br>
+<audio controls autoplay>
+ <source src="audio/EF/talker_0dB_TMHINT_01_01.wav"  type="audio/wav">
+</audio>
+
+#### Combining EPG and audio signal in late fusion 
+
+- car
+<br>
+<audio controls autoplay>
+ <source src="audio/lF/car_0dB_TMHINT_01_01.wav"  type="audio/wav">
+</audio>
+
+- engine
+<br>
+<audio controls autoplay>
+ <source src="audio/LF/engine_0dB_TMHINT_01_01.wav"  type="audio/wav">
+</audio>
+
+- street noise
+<br>
+<audio controls autoplay>
+ <source src="audio/LF/street_0dB_TMHINT_01_01.wav"  type="audio/wav">
+</audio>
+
+- background talkers
+<br>
+<audio controls autoplay>
+ <source src="audio/LF/talker_0dB_TMHINT_01_01.wav"  type="audio/wav">
+</audio>
