@@ -7,25 +7,29 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Speech Generation 
+## Clean Speech 
+<audio controls autoplay>
+ <source src="audio/clean_TMHINT_01_01.wav"  type="audio/clean">
+</audio>
+![](audio/clean_TMHINT_01_01.wav)
 
-Generating speech with only EPG signals 
+## Noisy Speech
+Four noise types artificially added. 
+- car
+![](audio/car_TMHINT_01_01.wav)
+- engine
+![](audio/engine_TMHINT_01_01.wav)
+- street noise
+![](audio/street_TMHINT_01_01.wav)
+-background talkers
+![](audio/talk_TMHINT_01_01.wav)
+
+## Speech Generation 
+- Generating speech with EPG signals only
 ![](audio/EPG_ONLY_0dB_TMHINT_01_01.wav)
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+- Generating speech with EPG signals and noisy speech signals in early fusion mode
+![](audio/sg_EF_0dB_TMHINT_01_01.wav)
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+- Generating speech with EPG signals and noisy speech signals in late fusion mode
+![](audio/sg_LF_0dB_TMHINT_01_01.wav)
