@@ -1,6 +1,6 @@
 
 Appendix I. P-values of different speech generation combinations
-|               | EPGONLY-EF  | EPGONLY-LF  | EF-LF       |
+|               | EPGONLY & EF  | EPGONLY & LF  | EF & LF       |
 |---------------|-------------|-------------|-------------|
 | PESQ          | 0.000       | 0.000       | 0.805       |
 | STOI          | 0.001       | 0.741       | 0.000       |
@@ -12,7 +12,7 @@ Appendix I. P-values of different speech generation combinations
 p-value < 0.05 is considered as achieving statistical significant in difference
   
 Appendix II. P-values of different fusion strategies in speech enhancement
-|       | noisy_baseline | baseline_EF | baseline_LF | EF_LF |
+|       | noisy & baseline | baseline & EF | baseline & LF | EF & LF |
 |-------|----------------|-------------|-------------|-------|
 | pesq  | 0.000          | 0.000       | 0.000       | 0.507 |
 | stoi  | 0.000          | 0.000       | 0.000       | 0.345 |
