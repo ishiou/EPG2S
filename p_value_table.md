@@ -5,6 +5,7 @@ Appendix I. P-value of different
 | EPGONLY-EF | 0.000 | 0.001 | 0.058 | 0.163  | 0.393  | 0.000 |
 | EPGONLY-LF | 0.000 | 0.741 | 0.000 | 0.005  | 1.000  | 0.000 |
 | EF-LF      | 0.805 | 0.000 | 0.002 | 0.160  | 0.393  | 0.000 |
+
 p-value < 0.05 is considered as achieving statistical significant in difference
   
 Appendix II. 
