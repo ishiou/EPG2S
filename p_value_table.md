@@ -20,7 +20,17 @@ Appendix II. P-values of different fusion strategies in speech enhancement
 | MCD   | 0.000          | 0.000       | 0.000       | 0.000 |
 | SSNR  | 0.795          | 0.000       | 0.000       | 0.000 |
 
-Appendix III. Comparison of EF and LF in speech enhancement (p-values) 
+Appendix III. Comparison of noisy speech and baseleine in speech enhancement (p-values) 
+|     |PESQ | STOI|ESTOI|  MCD| SSNR|
+|-----|-----|-----|-----|-----|-----|
+| 10dB|0.000|0.363|0.000|0.000|0.000|
+|  5dB|0.000|0.000|0.000|0.000|0.000|
+|  0dB|0.000|0.000|0.000|0.000|0.000|
+| -5dB|0.000|0.000|0.000|0.000|0.000|
+|-10dB|0.000|0.000|0.000|0.000|0.000|
+
+
+Appendix IV. Comparison of EF and LF in speech enhancement (p-values) 
 |     |PESQ | STOI|ESTOI|  MCD| SSNR|
 |-----|-----|-----|-----|-----|-----|
 | 10dB|0.000|0.329|0.079|0.355|0.044|
