@@ -1,5 +1,5 @@
 Appendix I. Comparison of different speech enhancement approach (p-value)
-|       | noisy - baseline | baseline - EF | baseline - LF | EF - LF |
+|       | Noisy - Baseline | Baseline - EF | Baseline - LF | EF - LF |
 |-------|----------------|-------------|-------------|-------|
 | PESQ  | 0.000          | 0.000       | 0.007       | 0.192 |
 | STOI  | 0.000          | 0.000       | 0.000       | 0.623 |
