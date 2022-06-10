@@ -9,7 +9,7 @@ Appendix I. Comparison of different speech enhancement approach (p-value)
 
 <br>
 
-Appendix II. Comparison of noisy speech and baseleine in speech enhancement (p-values) 
+Appendix II. Comparison of noisy speech and baseleine in speech enhancement at SNR levels (p-values) 
 |     |PESQ | STOI|ESTOI|  MCD| SSNR|
 |-----|-----|-----|-----|-----|-----|
 | 10dB|0.000|0.363|0.000|0.000|0.000|
@@ -20,7 +20,7 @@ Appendix II. Comparison of noisy speech and baseleine in speech enhancement (p-v
 
 <br>
 
-Appendix III. Comparison of EF and LF in speech enhancement (p-values) 
+Appendix III. Comparison of EF and LF in speech enhancement at SNR levels (p-values) 
 |     |PESQ | STOI|ESTOI|  MCD| SSNR|
 |-----|-----|-----|-----|-----|-----|
 | 10dB|0.000|0.329|0.079|0.355|0.044|
