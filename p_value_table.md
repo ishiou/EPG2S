@@ -6,7 +6,9 @@ Appendix I. Comparison of different speech enhancement approach (p-value)
 | ESTOI | 0.000          | 0.000       | 0.000       | 0.358 |
 | MCD   | 0.000          | 0.000       | 0.000       | 0.000 |
 | SSNR  | 0.795          | 0.000       | 0.000       | 0.000 |
+
 <br>
+
 Appendix II. Comparison of noisy speech and baseleine in speech enhancement (p-values) 
 |     |PESQ | STOI|ESTOI|  MCD| SSNR|
 |-----|-----|-----|-----|-----|-----|
@@ -15,7 +17,9 @@ Appendix II. Comparison of noisy speech and baseleine in speech enhancement (p-v
 |  0dB|0.000|0.000|0.000|0.000|0.000|
 | -5dB|0.000|0.000|0.000|0.000|0.000|
 |-10dB|0.000|0.000|0.000|0.000|0.000|
+
 <br>
+
 Appendix III. Comparison of EF and LF in speech enhancement (p-values) 
 |     |PESQ | STOI|ESTOI|  MCD| SSNR|
 |-----|-----|-----|-----|-----|-----|
