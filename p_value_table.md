@@ -14,8 +14,8 @@ p-value < 0.05 is considered as achieving statistical significant in difference
 Appendix II. P-values of different fusion strategies in speech enhancement
 |       | noisy & baseline | baseline & EF | baseline & LF | EF & LF |
 |-------|----------------|-------------|-------------|-------|
-| PESQ  | 0.000          | 0.000       | 0.000       | 0.507 |
-| STOI  | 0.000          | 0.000       | 0.000       | 0.345 |
-| ESTOI | 0.000          | 0.000       | 0.000       | 0.086 |
+| PESQ  | 0.000          | 0.000       | 0.007       | 0.192 |
+| STOI  | 0.000          | 0.000       | 0.000       | 0.623 |
+| ESTOI | 0.000          | 0.000       | 0.000       | 0.358 |
 | MCD   | 0.000          | 0.000       | 0.000       | 0.000 |
-| SSNR  | 0.000          | 0.000       | 0.000       | 0.000 |
+| SSNR  | 0.795          | 0.000       | 0.000       | 0.000 |
